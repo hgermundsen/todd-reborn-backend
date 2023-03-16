@@ -3,7 +3,7 @@ import { PulseService } from './pulse.service';
 import { PulseController } from './pulse.controller';
 
 @Module({
-  controllers: [PulseController],
-  providers: [PulseService],
+    controllers: [PulseController],
+    providers: [PulseService],
 })
 export class PulseModule {}

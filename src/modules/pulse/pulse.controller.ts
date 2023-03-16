@@ -3,10 +3,10 @@ import { PulseService } from './pulse.service';
 
 @Controller('pulse')
 export class PulseController {
-  constructor(private readonly pulseService: PulseService) {}
+    constructor(private readonly pulseService: PulseService) {}
 
-  @Get()
-  getHowdy(): string {
-    return this.pulseService.getHowdy();
-  }
+    @Get()
+    getHowdy(): string {
+        return this.pulseService.getHowdy();
+    }
 }
