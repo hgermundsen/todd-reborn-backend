@@ -14,11 +14,13 @@ describe('PulseController', () => {
         controller = module.get<PulseController>(PulseController);
     });
 
-    it('should be defined', () => {
-        expect(controller).toBeDefined();
-    });
+    describe('pulse', () => {
+        it('should be defined', () => {
+            expect(controller).toBeDefined();
+        });
 
-    it('should return "Hello World!"', () => {
-        expect(controller.getHowdy()).toBe('Howdy World!');
+        it('should return the expected heartbeat', () => {
+            expect(controller.getHeartbeat()).toBe('lub-dub, lub-dub, lub-dub');
+        });
     });
 });

@@ -6,7 +6,7 @@ export class PulseController {
     constructor(private readonly pulseService: PulseService) {}
 
     @Get()
-    getHowdy(): string {
-        return this.pulseService.getHowdy();
+    getHeartbeat(): string {
+        return this.pulseService.getHeartbeat();
     }
 }

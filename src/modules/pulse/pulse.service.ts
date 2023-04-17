@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class PulseService {
-    getHowdy(): string {
-        return 'Howdy World!';
+    getHeartbeat(): string {
+        return 'lub-dub, lub-dub, lub-dub';
     }
 }

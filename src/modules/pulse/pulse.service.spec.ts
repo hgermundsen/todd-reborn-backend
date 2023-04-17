@@ -12,7 +12,13 @@ describe('PulseService', () => {
         service = module.get<PulseService>(PulseService);
     });
 
-    it('should be defined', () => {
-        expect(service).toBeDefined();
+    describe('getHeartbeat', () => {
+        it('should be defined', () => {
+            expect(service).toBeDefined();
+        });
+
+        it('should return the expected heartbeat', () => {
+            expect(service.getHeartbeat()).toBe('lub-dub, lub-dub, lub-dub');
+        });
     });
 });
