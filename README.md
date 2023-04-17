@@ -1,6 +1,6 @@
 # Todd Reborn Backend
 
-[![Todd's Build Status](https://github.com/hgermundsen/todd-reborn-backend/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/hgermundsen/todd-reborn-backend/actions/workflows/continuous-integration.yml/badge.svg)
+[![CI](https://github.com/hgermundsen/todd-reborn-backend/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/hgermundsen/todd-reborn-backend/actions/workflows/continuous-integration.yaml)
 
 ## What is Todd?
 Todd is an attempt at creating a "better" personal assistant experience than you'd get when using Siri or Google Assistant (or any generic voice based personal assistance for that matter). This is also a personal project of mine where I want to gain experience building out an architecture that I've designed, using tools and tech that I think is really neat. While using LLMs and AI based voice generation for something like this is very niche (and arguably overkill as hell), it's a fun idea that I'm passionate about and would love to eventually have support for others to use Todd as well.
