@@ -11,9 +11,9 @@ export class AppService {
     }
     async handleRequest(audioFile: Express.Multer.File): Promise<string> {
         console.log(audioFile);
-        fs.rm('uploads', { recursive: true, force: true }, (err) => {
+        fs.unlink(audioFile.path, (err) => {
             if (err) {
-                return console.log('Error occurred while deleting folder', err);
+                return console.log('Error occurred while deleting file', err);
             }
         });
         return 'Howdy World! Still working on this piece of code';
