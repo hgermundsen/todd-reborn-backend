@@ -1,6 +1,6 @@
 # Todd Reborn Backend
 
-[![CI](https://github.com/hgermundsen/todd-reborn-backend/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/hgermundsen/todd-reborn-backend/actions/workflows/continuous-integration.yaml) ![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/hgermundsen/54b0c842747fa6be3cd6d344631a1651/raw/coverage.json)
+[![CI](https://github.com/hgermundsen/todd-reborn-backend/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/hgermundsen/todd-reborn-backend/actions/workflows/continuous-integration.yaml) ![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/hgermundsen/54b0c842747fa6be3cd6d344631a1651/raw/jest-coverage-comment__main.json)
 
 ## What is Todd?
 
