@@ -12,8 +12,9 @@ concurrency:
 jobs:
     build-and-test:
         permissions:
-            contents: 'read'
-            id-token: 'write'
+            contents: read
+            id-token: write
+            pull-requests: write
 
         runs-on: ubuntu-latest
 
