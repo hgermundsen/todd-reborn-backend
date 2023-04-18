@@ -26,6 +26,7 @@
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.3.12",
     "@types/multer": "^1.4.7",
+    "jest-junit": "^16.0.0",
     "multer": "^1.4.5-lts.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
@@ -69,6 +70,25 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node",
+    "coverageReporters": [
+      "html",
+      "json-summary",
+      "text",
+      "text-summary",
+      "lcov"
+    ],
+    "reporters": [
+      "default",
+      [
+        "jest-junit",
+        {
+          "outputDirectory": "coverage"
+        }
+      ]
+    ],
+    "coveragePathIgnorePatterns": [
+      "node_modules"
+    ],
     "verbose": true
   }
 }
