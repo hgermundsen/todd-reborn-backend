@@ -55,3 +55,6 @@ jobs:
                   message: ${{ steps.coverageComment.outputs.coverage }}%
                   color: ${{ steps.coverageComment.outputs.color }}
                   namedLogo: typescript
+
+            # Will add work here to build the docker container and deploy that
+            # container to Cloud Run, need to sort out containerization for that though
